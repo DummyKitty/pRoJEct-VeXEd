@@ -47,15 +47,15 @@ defaults:
       toc_level           : 5           # the toc depth by default
       author              : "DummyKitty" # author name by default
       show_date           : true        # whether show date message by default
-      category            : true        # category by default
+      category            :        # category by default
       post_list           : true       # whether show list of post by default      
       comment             : true
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
+email               : "just-test" 
 linkedin            : 
-github              : "just-test" 
+github              : "https://github.com/DummyKitty" 
 gitlab              : 
 website             : "https://DummyKitty.github.io"
 twitter             : "just-test"

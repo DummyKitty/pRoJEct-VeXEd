@@ -27,7 +27,7 @@
               </a>
               {% endif %}
               <a class="header_btn" href="{{ site.url }}{{ site.baseurl }}/categories">
-                <i class="fa btn_icon fa-home">
+                <i class="fa btn_icon fa-star">
                   <p class="btn_text">Catogory</p>
                 </i>
               </a>
@@ -111,7 +111,7 @@
   toclv = 3 %} {% endif %}
   <!-- generate toc -->
   {% include toc.html html=content sanitize=true class="ul_toc" id="ul_toc"
-  h_min=2 h_max=toclv %}
+  h_min=1 h_max=toclv %}
 </div>
 {% endif %}
 <!-- toggle maximize -->
