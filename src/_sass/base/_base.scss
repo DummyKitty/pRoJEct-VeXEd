@@ -2,37 +2,43 @@
 body {
   line-height: 1.75;
   font-size: $font-size-primary;
-  color: $color-primary;
+  color: white;
   font-family: $font-serif;
 }
 h1 {
+  color: orange;
   font-size: $font-size-h1;
   text-align: center !important;
   font-weight: lighter;
   margin: 1.8em 0 1.5em 0;
 }
 h2 {
+  color: orange;
   font-size: $font-size-h2;
   font-weight: lighter;
   margin: 1.8em 0 0.8em 0;
   border-bottom: $thin-border;
 }
 h3 {
+  color: orange;
   font-size: $font-size-h3;
   font-weight: lighter;
   margin: 1.9em 0 0.8em 0;
 }
 h4 {
+  color: orange;
   font-size: $font-size-h4;
   font-weight: lighter;
   margin: 1.4em 0 0.8em 0;
 }
 h5 {
+  color: orange;
   font-size: $font-size-h5;
   font-weight: lighter;
   margin: 2.3em 0 0.6em 0;
 }
 h6 {
+  color: orange;
   font-size: $font-size-h6;
   font-weight: lighter;
   margin: 2.4em 0 0.6em 0;

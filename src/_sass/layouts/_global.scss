@@ -9,7 +9,7 @@
   background-image: $image-background;
 }
 .container {
-  top: 2%;
+  top: 3%;
   height: 97%;
   width: 84%;
   max-width: 1350px;
@@ -22,7 +22,7 @@
 .div_article {
   top: $header-height + 1px;
   height: 95%;
-  width: 100%;
+  width: 78%;
   position: relative;
   z-index: 1;
   overflow-x: hidden;
