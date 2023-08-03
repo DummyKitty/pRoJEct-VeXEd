@@ -14,14 +14,10 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 # Keep it null if you want to show items in alphabetic order.
 collection_order    : 
   [
-    "posts",
-    "websecurity"
+    "posts"
   ]
 
 collections:
-  websecurity:
-    permalink       : /:collection/:title/
-    output          : true
   posts:
     permalink       : /:collection/:title/
     output          : true
@@ -43,7 +39,7 @@ defaults:
       home_btn            : true        # whether show home by default
       maximize            : true        # whether show maximize button by default
       encrypted_text      : false       # whether use encrytion function by default
-      toc                 : true        # whether show table of content by default
+      toc                 : false        # whether show table of content by default
       toc_level           : 5           # the toc depth by default
       author              : "DummyKitty" # author name by default
       show_date           : true        # whether show date message by default
